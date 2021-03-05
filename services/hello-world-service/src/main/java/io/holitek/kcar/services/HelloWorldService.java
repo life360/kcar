@@ -20,6 +20,8 @@ import java.beans.Introspector;
  */
 public class HelloWorldService implements ServletContextListener {
 
+    private static final String PASSWORD = "fubar";
+    
     private static final Logger LOG = LoggerFactory.getLogger(HelloWorldService.class);
 
     // anything to do with this element - from properties to identification - will use this top level key
