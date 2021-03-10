@@ -1,0 +1,6 @@
+- name: Generate Dependency CSV File
+  uses: thedave42/generate-dependencies-csv-action@v2
+with:
+    repo-token: ${{ secrets.36c6f8158ca47d90b7e839d376a79af836e8930b }}
+    org-name: life360
+    repo-names: apidocs,CollisionResponse,lost
